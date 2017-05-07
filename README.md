@@ -8,6 +8,9 @@ To install the deployment scripts in Linux run
 
     sudo make install
 
+# Requirements
+The script uses `github3py` module. It should **not** be install with `pip`. Please install the module from the develop source of [github3py repository](https://github.com/sigmavirus24/github3.py/tree/develop).
+
 # qt-deploy.py
 This script can be used to deploy compiles Qt applications directly to GitHub. Example configurations can be found in the *examples* folder.
 
